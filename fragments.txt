@@ -1,0 +1,3 @@
+The div element has more methods and properties, which causes it to consume more memory which can make the page slow load time; 
+the prototype chain is like HTMLDivElement -> HTMLElement -> Element -> Node -> EventTarget, whereas the React fragment has fewer methods with 
+the prototype chain DocumentFragment -> Node -> EventTarget.
